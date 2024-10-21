@@ -6,7 +6,7 @@ export const ConsolePage = () => {
     const { resetCurrentSelection } = useContext(AppContext);
 
     return (
-        <div className="relative overflow-auto">
+        <div className="relative overflow-auto h-full">
             <button onClick={resetCurrentSelection} className="absolute mt-2 py-1 px-6 rounded-lg bg-red-400 font-semibold">Salir</button>
             <h1 className="font-semibold text-2xl text-center mt-2">Consola</h1>
             <hr className="mt-2 mb-1" />
