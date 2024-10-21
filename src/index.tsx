@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { MainApp } from './MainApp';
+import { ContextApp } from './pages/context/AppContext';
 import './styles.css'
 
 const root = ReactDOM.createRoot(
@@ -8,6 +8,6 @@ const root = ReactDOM.createRoot(
 );
 root.render(
 	<React.StrictMode>
-		<MainApp />
+		<ContextApp />
 	</React.StrictMode>
 );
