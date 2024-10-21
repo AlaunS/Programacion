@@ -1,4 +1,4 @@
-import { useContext, useState } from "react"
+import { useContext } from "react"
 import { ConsolePage } from "./pages/basic/ConsolePage";
 import { DataTypePage } from "./pages/basic/DataTypePage";
 import { VariablesPage } from "./pages/basic/VariablesPage";
@@ -47,7 +47,7 @@ export const MainApp = () => {
     return (
         <div className="p-3 h-screen text-white bg-zinc-800">
             {
-                currentSelection != ''
+                currentSelection !== ''
                 ? SetHTMLSelecion()
                 : 
                 <>
