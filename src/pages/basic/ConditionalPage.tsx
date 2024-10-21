@@ -38,7 +38,7 @@ export const ConditionalPage = () => {
                 <h1 className="font-semibold text-lg mt-1 -mb-1">Condicion multiple (ifelse | ifelseif)</h1>
                 <p className="text-start px-2 text-sm bg-zinc-500/10 mt-2 py-1">
                     Este tipo de condicion te permite ejecutar una seccion del codigo solo si la condicion que esta entre los parentesis
-                    se cumple, de caso contrario no se realizara nada, por ejemplo si quieres comprobar si un nombre tiene tantas letras
+                    se cumple, de caso contrario se 
                 </p>
                 <img className="mt-2 border border-zinc-300/10" src="images/DataType1.png" width={500} />
                 <hr className="mt-1" />
